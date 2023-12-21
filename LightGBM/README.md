@@ -4,7 +4,7 @@
 (But mostly use Scikit-learnLGBM when we are friendly with Scikit-learn libarary)
 
 
-## Most frequent-used Parameters
+## Most frequent-used Hyper Parameters
 1. n_estimators(d=100) : the number of repeated execution (if it is bigger but it might be overfitting)
 2. learning_rate(d=0.1)
 3. Boosting_type
