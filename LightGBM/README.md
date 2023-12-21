@@ -14,7 +14,7 @@
 
 * Tree
 4. max_depth(d=-1): depth, Leaf-wise method is much deeper than Level-wise
-5. min_child_sample(min_data_in_leaf)(d=20): number of leaf-nodes
+5. min_child_sample(min_data_in_leaf)(d=20): number of leaf-nodes (Uncommon)
 6. num_leaves(d=31): number of max leafs per a tree
 
 * Sampling
@@ -24,4 +24,15 @@
 * Regularization
 9. lambda_l2(reg_labda)
 10. lambda_l1(reg_alpha)
+
+
+------------------------------------------------------------------------------
+## Search and optimization methods 
+--> It is possible to tune manually parameters above, but there are useful methods
+(method 1,2 are hard to apply previous tunned-results to next approaches but 3 is possible)
+
+1. Grid Search
+2. Random Search
+3. Baysian Optimization (cross_validation)
+- 
   
