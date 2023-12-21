@@ -12,6 +12,7 @@ XGBoost
 3) learning rate(d=0.3): 0.05 (it should be runned together with the number of trees)
    --> Gradient decent (Find slope=0)
 
+![gradient_decent](https://github.com/scottmsoh/ref_ML/assets/112598791/41a14340-462d-480a-a52a-70385edea3ae)
 
    
 5) n_jobs(d=?): 4
