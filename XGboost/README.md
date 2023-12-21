@@ -1,15 +1,25 @@
 # XGBoost
 XGBoost
 
-Parameters tunning:
-1) max_depth =
-2) n_estimator = 
-1) subsample = 0.75 e.g. row sampling
-2) gamma = 0.25 e.g. increase gamma --> less splits / less complex (reduce overfitting)
-3) learning rate (it should be runned together with the number of trees)
-4) reg_alph = l1 regression
+* Do not have to fill the Null, missing values
 
-Hyper parameters
+* Parameters tunning:
+1) max_depth(d=6):
+2) n_estimator(d=100): 500, 1000
+3) early_stopping_round(d= x): 5
+1) subsample = 0.75 e.g. row sampling
+2) gamma(d=0): 0.25 e.g. increase gamma -> less splits / less complex (reduce overfitting)
+3) learning rate(d=0.3): 0.05 (it should be runned together with the number of trees)
+   --> Gradient decent (Find slope=0)
+
+
+   
+5) n_jobs(d=?): 4
+6) reg_alph(d=0) = l1 regularization
+7) reg_lambda(d=1) = l2 regularization
+
+
+* Hyper parameters
 Methods
 1) Grid search
 2) Random search
