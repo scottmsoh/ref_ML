@@ -13,13 +13,13 @@ from sklearn.model_selection import GridSearchCV
 %matplotlib inline
 
 param_grid = {'polynomialfeatures__degree': np.arange(21),
-<h1> annotation range: 0~20 degree apply </h1>
+<h3> annotation range: 0~20 degree apply </h3>
               'linearregression__fit_intercept': [True, False],
               'linearregression__normalize': [True, False]}
-<h1> annotation In this example: 20*2*2= 80ea number of cases  execution </h1>
+<h3> annotation In this example: 20*2*2= 80ea number of cases  execution </h3>
 
 grid = GridSearchCV(PolynomialRegression(), param_grid, cv=7)
-<h1> annotaion Cross-validation function: e.g. 7ea cross-validate </h1>
+<h3> annotaion Cross-validation function: e.g. 7ea cross-validate </h3>
 
 grid.fit(X,y)
 grid.best_params_
