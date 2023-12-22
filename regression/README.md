@@ -16,9 +16,7 @@ equation: Cost function + λ * Sum of squares θi
 -> Can set some coefficients to zero, effectively performing feature selection.
 Useful when you have high-dimensional datasets (many features) and you suspect that only a few features are actually important
 
-<span style="color:blue">only a few features to significantly influence the target variable</span>
-
-<span style="color:blue">파란 글씨</span>
+<span style="background-color:blue">only a few features to significantly influence the target variable</span>
 
 #### 2. L2 regularization (Ridge)
 
