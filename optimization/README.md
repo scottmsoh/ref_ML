@@ -2,15 +2,15 @@
 
 ## 1. Grid Search
 ---------------------------------------------------------------
-- Declaration
-from sklearn.preprocessing import PolynomialFeatures
-from sklearn.linear_model import LinearRegression
-from sklearn.pipeline import make_pipeline
-import matplotlib.pyplot as plt
+- Declaration <br/>
+from sklearn.preprocessing import PolynomialFeatures <br/>
+from sklearn.linear_model import LinearRegression <br/>
+from sklearn.pipeline import make_pipeline <br/>
+import matplotlib.pyplot as plt <br/><br/>
 
-* Start Grid search
-from sklearn.model_selection import GridSearchCV
-%matplotlib inline
+* Start Grid search <br/>
+from sklearn.model_selection import GridSearchCV <br/>
+%matplotlib inline <br/>
 
 param_grid = {'polynomialfeatures__degree': np.arange(21),
 <h3> annotation range: 0~20 degree apply </h3>
