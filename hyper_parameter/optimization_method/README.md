@@ -42,6 +42,13 @@ deicision_tree param (avoiding overfitting)
 
 
 ## 4. AutoML
+By automating key steps like hyperparameter optimization, AutoML tools allow practitioners to focus more on problem-solving and less on the intricacies of machine learning model development.
 
+1. Google AutoML: Provides a suite of products to train high-quality custom machine learning models with minimal effort and machine learning expertise.
+
+
+3. H2O AutoML: An open-source platform that automates the process of training and tuning a large selection of candidate models.
+
+4. Microsoft Azure AutoML: Part of Azure Machine Learning, offering automated machine learning capabilities.
 
 
