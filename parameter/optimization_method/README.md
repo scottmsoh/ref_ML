@@ -28,3 +28,8 @@ deicision_tree param (avoiding overfitting)
 
 
 ## 3. Baysian Optimization
+
+파라메터: (기계가) 역전파, 순전파 - 스캐일링, 쉬프트
+하이퍼파라메타: (사람이) 뉴런의 개수, learning-rate 
+
+
