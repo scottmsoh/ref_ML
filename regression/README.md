@@ -18,6 +18,8 @@ Useful when you have high-dimensional datasets (many features) and you suspect t
 
 <span style="color:blue">only a few features to significantly influence the target variable</span>
 
+<span style="color:blue">파란 글씨</span>
+
 #### 2. L2 regularization (Ridge)
 
 λ = is a regularization parameter (a hyperparameter)
