@@ -18,5 +18,13 @@ cv=옵션객체,
 stratifiedKfold(n_splits=5, shuffle(d=False)=True, random_state=42)
 scores = cross_validate(dt, train_input, train_target, return_train_score=True, cv=splitter)
 
+deicision_tree param (avoiding overfitting)
+0(
+
+랜덤서치
+그리드서치는 범위 하나하나 다 적용 (속도 느림)
+범위만 주면 여기서 랜덤으로 샘플을 뽑아서 진행 (다하면 느리므로 속도 빠름)
+나머지 같으나 n-iter=100이 있음
+
 
 ## 3. Baysian Optimization
