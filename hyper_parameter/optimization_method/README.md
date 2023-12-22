@@ -31,5 +31,17 @@ deicision_tree param (avoiding overfitting)
 
 파라메터: (기계가) 역전파, 순전파 - 스캐일링, 쉬프트
 하이퍼파라메타: (사람이) 뉴런의 개수, learning-rate 
+실험데이터에 노이즈 (outlier or missing values) 껴있는 경우 사용한다
+목적 함수에 대한 아무런 정보가 없을 떄 사용
+
+1) 주어진 데이터에서 랜덤하게 샘플링을 한다.
+2) 샘플들로부터 surrogate function을 계산한다.
+3) surrogate function으로부터 획득함수(Aquisition function)을 최대화 하는 새로운 샘플값을 추가한다.
+4) surrogate function을 다시 계산한다.
+5) surrogate function의 최대값이 안바뀌거나 분산이 역치 이하이면 반복계산하는것 중지한다.
+
+
+## 4. AutoML
+
 
 
