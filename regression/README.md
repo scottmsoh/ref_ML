@@ -8,7 +8,7 @@ Lasso uses the absolute value of θi
 Ridge uses the square value of θi
 
 #### 1. L1 regularization (Lasso)
-
+---------------------------------------------------------------------------
 λ = is a regularization parameter (a hyperparameter)
 θi = represents each coefficient in the model
 equation: Cost function + λ * Sum of squares θi
@@ -17,9 +17,11 @@ equation: Cost function + λ * Sum of squares θi
 Useful when you have high-dimensional datasets (many features) and you suspect that only a few features are actually important
 
 ### only a few features to significantly influence the target variable
+---------------------------------------------------------------------------
+
 
 #### 2. L2 regularization (Ridge)
-
+---------------------------------------------------------------------------
 λ = is a regularization parameter (a hyperparameter)
 θi = represents each coefficient in the model
 equation: Cost function + λ * Sum of absolute value of θi
@@ -28,3 +30,4 @@ equation: Cost function + λ * Sum of absolute value of θi
 Encourages the model to keep the coefficients as small as possible, which can help in handling multicollinearity and reducing model complexity.
 
 ### many features are relevant or when you have multicollinearity in the data
+---------------------------------------------------------------------------
