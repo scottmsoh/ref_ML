@@ -1,6 +1,6 @@
 ## Performance evaluation metrics
 
-#### Classification Model
+### Classification Model
 
 Confusion matrix
 
@@ -23,7 +23,7 @@ An AUROC of 1 indicates a perfect classifier, while an AUROC of 0.5 indicates a 
    = 1/n * Sum of absolute value (predicted value y - actual value y) / actual value y
 
 
-#### Regression Model
+### Regression Model
    
 5. R square
 6. Adjusted R square
