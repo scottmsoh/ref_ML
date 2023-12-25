@@ -24,12 +24,5 @@
    2) Elastic Net</br>
    3) Ridge regression</br>
    4) Tree_based models</br>
-      
----------------------------------------------------------------
-1. Demension Reduction = Feature extraction</br>
-  1) PCA (Principle Component Analysis)</br>
-  2) LDA (Linear Discriminant Analysis)</br>
-  3) t-SNE (t-Distributed Stochastic Neighbor Embedding)</br>
-  4) </br>
 
-2. 
+      
