@@ -24,7 +24,7 @@
    2) Elastic Net</br>
    3) Ridge regression</br>
       
-
+---------------------------------------------------------------
 1. Demension Reduction = Feature extraction</br>
   1) PCA (Principle Component Analysis)</br>
   2) LDA (Linear Discriminant Analysis)</br>
