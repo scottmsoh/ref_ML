@@ -23,6 +23,7 @@
    1) Lasso regression</br>
    2) Elastic Net</br>
    3) Ridge regression</br>
+   4) Tree_based models</br>
       
 ---------------------------------------------------------------
 1. Demension Reduction = Feature extraction</br>
