@@ -8,13 +8,19 @@ Difference between selection & extraction
       To remove overfitting, improve performance
       Only linear cases</br>
       Large dataset fine
-      
-  2) LDA (Linear Discriminant Analysis)</br>
-      Useful for classification cases</br>
-      have labeled data and are interested in maximizing class separability.</br>
-      Large dataset fine</br>
+      Unsupervised
      
-  3) t-SNE (t-Distributed Stochastic Neighbor Embedding)</br>
+  3) LDA (Linear Discriminant Analysis)</br>
+      Useful for classification cases</br>
+      have labeled data and are interested in maximizing class separability and minimizing variance inner class</br>
+      Large dataset fine</br>
+      Supervised
+
+![Image 2023-12-25 at 2 50 PM](https://github.com/scottmsoh/ref_ML/assets/112598791/4d95d290-ff31-4ff6-bd3a-9d6d278309be)
+
+
+     
+  5) t-SNE (t-Distributed Stochastic Neighbor Embedding)</br>
       High dimensional cases</br>
       Prefer to use small dataset</br>
       When you have complex, nonlinear data structures.</br>
