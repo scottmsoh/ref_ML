@@ -22,12 +22,28 @@ sementic, stereo matching pxl별로 정답이 있는 경우 X, 위치 정보 중
 ---- NLP Data Augmentation: NLTK
 Altering the text data to create additional realistic training samples.
 
-1) Synonym Replacement: Replace words with synonyms.
-2) Random Insertion: Insert new words that are synonyms of words in the sentence.
-3) Random Swap: Swap words in the sentence.
-4) Random Deletion: Randomly remove words.
-5) Back Translation: Translate the text to another language and then back to the original language.
-6) Text Surface Transformation: Apply surface-level changes, such as changing the tense or voice of sentences.
+ex) I love riding a bicyle.
+1) *Synonym Replacement: Replace words with synonyms. ex) I love taking motorcycle.
+2) *Random Insertion: Insert new words that are synonyms of words in the sentence.
+   ex) I love riding a bicycle today.
+3) *Random Swap: Swap words in the sentence. ex) I ride love a bicycle.
+5) *Random Deletion: Randomly remove words. ex) Love riding a bicycle.
+
+7) Back Translation: Translate the text to another language and then back to the original language. (High cost compared to performance, different results depending on each translator)</br>
+8) Text Surface Transformation: Apply surface-level changes, such as changing the tense or voice of sentences.
+
+#### Data set (we can use sample)
+- SST-2 : stanford Sentiment Treebank
+- CR: customer reviews
+- SUBJ: subjectivity/objectivity dataset
+- TREC: question type dataset
+- PC: Pro-Con dataset
+
+Models
+- LSTM - RNN
+- CNNs
+
+
 
 -----
 3. Specific sampling (under, over)
