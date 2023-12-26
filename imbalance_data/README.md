@@ -1,12 +1,12 @@
 
 ## How to overcome data imbalance
 
----- Imaga Processing Data Augmentation
-regularization,
-일반 classification과 달리
-pixel마다 sementic segmetation 의 경우 각각의 경우 정답이 필요함
-적용하기 어렵거나 안되는 경우도 있음
-Fistly normalization (0~255 pxl 그대로 사용할 경우 큰 값에만 민감) -> 0~1로 normalize 해줌
+---- Imaga Processing Data Augmentation</br>
+regularization,</br>
+일반 classification과 달리</br>
+pixel마다 sementic segmetation 의 경우 각각의 경우 정답이 필요함</br>
+적용하기 어렵거나 안되는 경우도 있음</br>
+Fistly normalization (0~255 pxl 그대로 사용할 경우 큰 값에만 민감) 0~1로 normalize 해줌</br>
    --> 큰값 작은 값의 차이 존재, 평균값을 중간으로 혹인 0.5사용 (평균값을 빼고, 표준편차로 나눔=normalized)
 
 1) Random flip and rotate
