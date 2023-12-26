@@ -24,10 +24,10 @@ Confusion matrix
 An AUROC of 1 indicates a perfect classifier, while an AUROC of 0.5 indicates a worthless classifier. A higher AUROC value indicates a better overall performance of the classifier.
 
 7) Accuracy
-1. MSE = 1/n * Sum of Squares (predicted value y - actual value y)
-2. RMSE = Root 1/n * Sum of Squares (predicted value y - actual value y)
-3. MAE = 1/n * Sum of absolute value (predicted value y - actual value y)
-4. MARE (Mean Absolute Relative Error) 
+1- MSE = 1/n * Sum of Squares (predicted value y - actual value y)
+2- RMSE = Root 1/n * Sum of Squares (predicted value y - actual value y)
+3- MAE = 1/n * Sum of absolute value (predicted value y - actual value y)
+4- MARE (Mean Absolute Relative Error) 
    
    = 1/n * Sum of absolute value (predicted value y - actual value y) / actual value y
 
