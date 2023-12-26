@@ -1,6 +1,6 @@
 ## Performance evaluation metrics
 
-####Cross-validation technic</br>
+#### Cross-validation technic</br>
 
 accuracy_scores = cross_val_score(classifier, X, y, cv=5, scoring='accuracy')</br>
 We can select methods such as accuracy or R square at the 'scoring' section.</br>
