@@ -16,3 +16,8 @@
 금융권 - 트레이딩 (의사결정 고도화)</br>
 수익률 극대화 지분 매각 판단, 최적화</br>
 자율주행 - 모든 상황을 학습시키기 어려움 (시뮬레이션, 상황에서 학습)</br>
+
+Q-learning</br>
+Deep Q-Networks(DQN)</br>
+Policy Gradient Methods</br>
+Proximal Policy Optimization (PPO) and Trust Region Policy Optimization (TRPO)</br>
