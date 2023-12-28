@@ -2,7 +2,7 @@
 
 ### NLP Basic steps</br>
 
-1. Data Collection:
+1. Data Collection:</br>
 Gather a relevant dataset. This data might be in the form of text documents, web pages, emails, social media posts, etc.</br>
 Ensure the dataset is large and diverse enough to train models effectively for the task at hand.</br>
 
