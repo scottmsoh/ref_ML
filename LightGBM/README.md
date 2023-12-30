@@ -1,7 +1,10 @@
 
-
 ## PythonLGBM & S Scikit-learnLGBM 
 (But mostly use Scikit-learnLGBM when we are friendly with Scikit-learn libarary)
+
+When data size is small, it might be easily overfitting. (More than 10,000 rows)
+This model is really sensitive for hyper parameter *max_depth
+Key Concept is not level-wise tree growth, a leaf-wise tree growth
 
 
 ## Most frequent-used Hyper Parameters
