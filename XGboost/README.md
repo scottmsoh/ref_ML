@@ -3,6 +3,9 @@ XGBoost
 
 * Do not have to fill the Null, missing values
 
+![Image 2023-12-30 at 1 19 AM](https://github.com/scottmsoh/ref_ML/assets/112598791/bab31583-b099-42d2-9fbb-eaf9be8aae2a)
+
+
 * Parameters tunning:
 1) max_depth(d=6):
 2) n_estimator(d=100): 500, 1000
