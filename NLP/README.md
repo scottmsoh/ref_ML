@@ -12,6 +12,9 @@ Ensure the dataset is large and diverse enough to train models effectively for t
     3) Tokenization: Break text into smaller units (tokens), typically words or subwords.</br>
     4) Stop Words Removal: Eliminate common words (like "the", "is", "in") that don't            contribute much to the meaning of the text.</br>
     5) Stemming and Lemmatization: Reduce words to their base or root form.</br>
+ex) Lemmatization: run/ran/run --> run 통일
+#print(lemmatizer.lemmatize('apple'))
+
 
 3. Feature Extraction:</br>
 Convert text data into a numerical format that machine learning algorithms can understand.
