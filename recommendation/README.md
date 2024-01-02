@@ -8,8 +8,9 @@
 
 ![Image 2023-12-28 at 12 21 AM](https://github.com/scottmsoh/ref_ML/assets/112598791/a3fc588d-9508-4c28-b5f3-40af695e3662)
 
+## Memory-Based Methods = neighborhood-based: KNN
 
-### User-based Collaborative filltering
+### User-based Collaborative filltering : 
 - 좋아요 (1,0)
 - 영화별, 제품 별 0,1 marking
 - Cosine similarity : 두 user의 좋아요 True/False value를 곱해서 나온값을 더함
@@ -30,4 +31,14 @@
 ![Image 2023-12-28 at 5 43 PM](https://github.com/scottmsoh/ref_ML/assets/112598791/b3973774-74ca-4fc6-a7ff-13d2cdf300c9)
 
 -
+
+## Model-based Methods
+
+ALS (Alternating Least Squares):
+Category: Model-Based Method
+Details: ALS is used in matrix factorization, which is a model-based approach. It works by decomposing the user-item interaction matrix into lower-dimensional matrices representing latent factors for users and items. ALS alternates between fixing the user factors and solving for item factors, and vice versa, which makes it suitable for handling implicit feedback datasets and scalable for large datasets.
+
+SGD (Stochastic Gradient Descent):
+Category: Model-Based Method
+Details: SGD is an optimization technique that can be used in various model-based collaborative filtering algorithms, particularly matrix factorization. It iteratively updates the user and item factors to minimize a loss function, typically the difference between observed and predicted ratings. It's an efficient way to handle large-scale data and is a key component in many model-based recommendation algorithms.
 
