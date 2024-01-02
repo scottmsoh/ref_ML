@@ -1,4 +1,3 @@
-![Image 2024-01-02 at 10 38 AM](https://github.com/scottmsoh/ref_ML/assets/112598791/15a9f32e-4c91-42ff-be04-56c920531978)
 
 ## tunning methods
 
