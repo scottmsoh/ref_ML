@@ -1,6 +1,6 @@
 
 
-''' C
+```Python
 
 import pandas as pd
 import numpy as np
@@ -28,4 +28,4 @@ ratings_df['weighted_rating'] = ratings_df['rating'] * ratings_df['decay_factor'
 
 print(ratings_df)
 
-'''
+```
