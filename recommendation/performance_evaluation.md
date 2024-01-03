@@ -27,3 +27,6 @@ X_poly, Y = shuffle(X_poly, Y) // Shuffle 필요 (Randomly choosing)
 
 Comparison with Training Performance: If a model has much higher performance on its training set compared to its cross-validation score, this is a sign of overfitting. The model is learning the training data too closely but not generalizing well to new data.
 
+비지도 방식 NN than KNN
+
+
