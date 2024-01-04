@@ -13,6 +13,7 @@ Random Swap: Swap words in the sentence. ex) I ride love a bicycle.
 Random Deletion: Randomly remove words. ex) Love riding a bicycle.
 Back Translation: Translate the text to another language and then back to the original language. (High cost compared to performance, different results depending on each translator)
 Text Surface Transformation: Apply surface-level changes, such as changing the tense or voice of sentences.
+
 Data set (we can use sample)
 SST-2 : stanford Sentiment Treebank
 CR: customer reviews
